@@ -1,0 +1,60 @@
+:root {
+    --soft-blue: #8BACDAFF;
+    --cyan: #00FFF7FF;
+    --very-dark-blue: #0D192BFF;
+    --very-dark-blue-card: #14253DFF;
+    --very-dark-blue-line: #2F415BFF;
+
+    --outfit: Outfit, serif;
+}
+
+svg {
+    widht: 0;
+    height: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--very-dark-blue);
+    font-family: Outfit, serif;
+}
+
+.componente.container {
+    width: 21.9375rem;
+    height: 37.1875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-radius: 0.9375rem;
+    background: #14253D;
+    box-shadow: 0 -3px 32px 36px #00000005, 0 23px 16px 20px #00000014;
+}
+
+.destaque {
+    color: white;
+}
+
+.destaque-2 {
+    color: var(--soft-blue);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--soft-blue);
+}
+
+a {
+    color: white;
+}
+
+@media screen and (max-width: 376px) {
+    footer {
+        display: none;
+    }
+}

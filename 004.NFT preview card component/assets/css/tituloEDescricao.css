@@ -1,0 +1,21 @@
+/*Titulo, descrição e destaques*/
+
+.titulo-descricao.container {
+    margin-top: 1.5rem;
+}
+
+.titulo {
+    margin: 1.44rem 0 1.38rem 0;
+    font-weight: 600;
+}
+
+.titulo:hover {
+    color: var(--cyan);
+}
+
+.descricao {
+    width: 17.75rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: unset;
+}

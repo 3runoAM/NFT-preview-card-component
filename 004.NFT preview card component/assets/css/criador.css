@@ -1,0 +1,21 @@
+.criador.container {
+    display: flex;
+}
+
+.criador.avatar {
+    width: 2.25rem;
+    height: 2.25rem;
+    margin: 1rem 0 1.56rem 3rem;
+    border-radius: 1.0625rem;
+    border: 1px solid white;
+}
+
+.criador.descricao.destaque-2{
+    color: var(--soft-blue);
+    margin-top: 1.44rem;
+    margin-left: 0.94rem;
+}
+
+span:hover {
+    color: var(--cyan);
+}

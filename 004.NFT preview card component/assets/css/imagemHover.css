@@ -1,0 +1,31 @@
+.imagem.container {
+    position: relative;
+    top: 1.6rem;
+}
+
+.imagem {
+    width: 18.875rem;
+    height: 18.875rem;
+    border-radius: 0.9375rem;
+}
+
+.icone-visualizado.container {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    background-color: hsla(178, 100%, 50%, 50%);
+    opacity: 0;
+}
+
+.icone-visualizado {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+.icone-visualizado.container:hover {
+    opacity: 1;
+}

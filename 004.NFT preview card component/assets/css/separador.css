@@ -1,0 +1,5 @@
+.separador {
+    border: 1px solid var(--very-dark-blue-line);
+    width: 18.875rem;
+    margin-top: .5rem;
+}

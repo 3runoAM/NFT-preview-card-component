@@ -1,0 +1,47 @@
+/*Preço, tempo e separador*/
+.info.container{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 18.875rem;
+    height: 1.875rem;
+}
+
+/*Informação da cripto-moeda*/
+
+.cripto-container{
+    display: flex;
+}
+
+.cripto-icon {
+    width: 0.6875rem;
+    height: 1.125rem;
+    background-image: url("/assets/images/icon-ethereum.svg");
+    margin: .44rem 0 .31rem .6rem;
+}
+
+.info.cripto {
+    color: var(--cyan);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: .25rem 0 0 .37rem;
+}
+
+/*-------------------------*/
+
+
+.time.container {
+    display: flex;
+}
+
+
+.time-icon {
+    width: 1.0625rem;
+    height: 1.0625rem;
+    margin-top: .44rem ;
+    background-image: url("/assets/images/icon-clock.svg");
+}
+
+p.info.time {
+    margin: .37rem 0 0 .56rem;
+}
